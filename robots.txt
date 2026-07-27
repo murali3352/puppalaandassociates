@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://puppalaandassociates.github.io/sitemap.xml
