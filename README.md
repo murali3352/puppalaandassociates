@@ -1,7 +1,7 @@
 # Puppala and Associates — Chartered Accountants Website
 
 Professional CA firm website for **Puppala and Associates** based in Amalapuram, Andhra Pradesh.  
-Inspired by [jainanuragassociates.com](https://jainanuragassociates.com/).
+Inspired by
 
 ## 🚀 Quick Start — GitHub Pages Deployment
 
