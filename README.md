@@ -1,12 +1,7 @@
 # Puppala and Associates — Chartered Accountants Website
 
-<<<<<<< HEAD
 Professional CA firm website for **Puppala and Associates** based in Amalapuram, Andhra Pradesh.  
 Inspired by
-=======
-Professional CA firm website for **Puppala and Associates**, Amalapuram, Andhra Pradesh.
-Static site — plain HTML, CSS and JavaScript, no build step, no dependencies to install.
->>>>>>> c56e648 (updated)
 
 ## 🚀 GitHub Pages Deployment
 
