@@ -1197,7 +1197,7 @@
         'Please add this email to your updates list:\n\n' + email + '\n'
       );
       window.location.href =
-        'mailto:info@puppalaandassociates.com?subject=' + subject + '&body=' + body;
+        'mailto:puppalaandassociates31@gmail.com?subject=' + subject + '&body=' + body;
 
       if (status) status.textContent = 'Opening your email app to confirm the subscription…';
       input.value = '';

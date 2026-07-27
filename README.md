@@ -98,7 +98,7 @@ the Google Maps embed behave the same as they will in production.
 ## 📞 Contact Details
 - **Phone:** +91 70756 44785
 - **WhatsApp:** [wa.me/917075644785](https://wa.me/917075644785)
-- **Email:** info@puppalaandassociates.com
+- **Email:** puppalaandassociates31@gmail.com
 - **Address:** Main Road, Amalapuram, East Godavari, Andhra Pradesh 533201
 - **Hours:** Mon – Sat, 9:30 AM – 6:30 PM
 
