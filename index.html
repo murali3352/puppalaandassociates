@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0a1628">
 
-  <!-- SEO (factual, informational — no promotional keywords) -->
-  <title>Puppala and Associates — Chartered Accountants, Amalapuram</title>
-  <meta name="description" content="Puppala and Associates is a Chartered Accountancy firm in Amalapuram, Andhra Pradesh, providing taxation, auditing, accounting and regulatory compliance services.">
+  <!-- SEO -->
+  <title>Puppala and Associates — Chartered Accountants in Amalapuram | Tax, Audit &amp; Advisory</title>
+  <meta name="description" content="Puppala and Associates is a Chartered Accountant firm in Amalapuram offering expert tax advisory, auditing, GST services, company registration and accounting solutions.">
+  <meta name="keywords" content="Puppala and Associates, Chartered Accountants, CA firm Amalapuram, tax advisory, GST services, auditing, company registration, bookkeeping, income tax, financial advisory, Andhra Pradesh">
   <meta name="author" content="Puppala and Associates">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://puppalaandassociates.github.io/">
@@ -16,20 +17,33 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Puppala and Associates">
   <meta property="og:locale" content="en_IN">
-  <meta property="og:title" content="Puppala and Associates — Chartered Accountants, Amalapuram">
-  <meta property="og:description" content="Chartered Accountancy firm in Amalapuram, Andhra Pradesh providing taxation, auditing, accounting and regulatory compliance services.">
+  <meta property="og:title" content="Puppala and Associates — Chartered Accountants in Amalapuram">
+  <meta property="og:description" content="Expert CA firm providing tax advisory, auditing, GST, company registration and financial services in Amalapuram, Andhra Pradesh.">
   <meta property="og:url" content="https://puppalaandassociates.github.io/">
+  <meta property="og:image" content="https://puppalaandassociates.github.io/assets/img/og-cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Puppala and Associates — Chartered Accountants, Amalapuram">
 
-  <!-- Structured Data (informational; no price range, no ratings) -->
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Puppala and Associates — Chartered Accountants in Amalapuram">
+  <meta name="twitter:description" content="Expert CA firm providing tax advisory, auditing, GST, company registration and financial services in Amalapuram.">
+  <meta name="twitter:image" content="https://puppalaandassociates.github.io/assets/img/og-cover.png">
+
+  <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "AccountingService",
     "name": "Puppala and Associates",
-    "description": "Chartered Accountancy firm in Amalapuram providing taxation, auditing, accounting and regulatory compliance services.",
+    "alternateName": "Puppala & Associates CA",
+    "description": "Chartered Accountants in Amalapuram offering expert tax advisory, auditing, GST services, company registration and accounting solutions.",
     "url": "https://puppalaandassociates.github.io/",
+    "image": "https://puppalaandassociates.github.io/assets/img/og-cover.png",
     "telephone": "+91-70756-44785",
     "email": "puppalaandassociates31@gmail.com",
+    "priceRange": "₹₹",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Main Road",
@@ -43,11 +57,32 @@
       "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
       "opens": "09:30",
       "closes": "18:30"
-    }]
+    }],
+    "areaServed": [
+      {"@type": "City", "name": "Amalapuram"},
+      {"@type": "City", "name": "Razole"},
+      {"@type": "City", "name": "Kakinada"},
+      {"@type": "State", "name": "Andhra Pradesh"}
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Chartered Accountancy Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Income Tax Advisory"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "GST Services"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Auditing & Assurance"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Company Registration"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Accounting & Bookkeeping"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "TDS/TCS Returns"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Project Finance"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Regulatory Compliance"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Financial Advisory"}}
+      ]
+    }
   }
   </script>
 
-  <!-- Fonts -->
+  <!-- Fonts (preconnected + non-blocking-friendly) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700&display=swap">
@@ -55,11 +90,22 @@
   <!-- Styles -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- Progressive enhancement flag -->
+  <!-- Progressive enhancement flag: keeps content visible if JS never runs -->
   <script>document.documentElement.classList.remove('no-js');</script>
 
-  <!-- Favicon -->
+  <!--
+    Google Analytics (GA4) — OPTIONAL.
+    Uncomment the two lines below and replace G-XXXXXXXXXX with your real
+    Measurement ID. Left commented out on purpose: an unreplaced placeholder
+    ID only downloads ~90 KB of script and records nothing.
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+  -->
+
+  <!-- Favicon (inline SVG data-uri) -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a1628'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' fill='%23c9a84c' font-family='serif' font-weight='700' font-size='16'%3EPA%3C/text%3E%3C/svg%3E">
+  <link rel="apple-touch-icon" href="assets/img/og-cover.png">
 </head>
 <body>
 
@@ -93,6 +139,19 @@
           Mon – Sat, 9:30 AM – 6:30 PM
         </span>
       </div>
+      <div class="top-bar-right">
+        <div class="top-bar-social">
+          <a href="https://www.instagram.com/puppalaandassociates" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.2" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/company/puppala-and-associates" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 2a2 2 0 110 4 2 2 0 010-4z"/></svg>
+          </a>
+          <a href="https://wa.me/917075644785" target="_blank" rel="noopener" aria-label="WhatsApp" title="WhatsApp">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -114,7 +173,16 @@
             <a href="#hero" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
+            <a href="#why-choose">Professional Approach</a>
+            <!-- <a href="#testimonials">Testimonials</a> -->
             <a href="#contact">Contact</a>
+          </div>
+
+          <div class="nav-cta" id="nav-cta">
+            <a href="#contact" class="btn btn-primary" id="nav-cta-btn">
+              Contact Us
+              <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
           </div>
         </div>
 
@@ -140,21 +208,52 @@
     <div class="container">
       <div class="hero-content">
         <div class="hero-left">
+          <!-- <div class="hero-badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            Trusted CA Firm
+          </div> -->
+
           <h1>
-            Puppala &amp; Associates
+            Professional <span class="highlight">Chartered Accountancy</span> Services
           </h1>
+
           <p class="hero-description">
-            A Chartered Accountancy firm based in Amalapuram, Andhra Pradesh, providing
-            services in taxation, auditing, accounting and regulatory compliance.
+            Providing professional services in taxation, auditing, accounting, regulatory compliance and financial advisory.
           </p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary" id="hero-cta-primary">
+              Contact Us
+              <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#services" class="btn btn-outline" id="hero-cta-secondary">
+              Our Services
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <div class="hero-stat-number counter" data-target="4" data-suffix="+">4+</div>
+              <div class="hero-stat-label">Years Experience</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-number counter" data-target="300" data-suffix="+">300+</div>
+              <div class="hero-stat-label">Professional Services</div>
+            </div>
+            <div class="hero-stat">
+              <div class="hero-stat-number counter" data-target="100" data-suffix="%">100%</div>
+              <div class="hero-stat-label">Established</div>
+            </div>
+          </div>
         </div>
 
+        <!-- 3D card stack -->
         <div class="hero-right scene-3d" id="hero-scene">
           <div class="hero-stack">
             <div class="hero-card-main glass-card layer-3d" data-depth="60">
               <div class="card-icon" aria-hidden="true">📊</div>
-              <h3>Chartered Accountancy Services</h3>
-              <p>Taxation, auditing, accounting and compliance for individuals and businesses.</p>
+              <h3>Expert Financial Advisory</h3>
+              <p>Comprehensive solutions tailored to your business growth and compliance needs.</p>
             </div>
 
             <div class="hero-card-secondary glass-card layer-3d" data-depth="100">
@@ -162,29 +261,70 @@
                 <div class="stat-icon green" aria-hidden="true">✓</div>
                 <div class="stat-info">
                   <h4>Statutory Compliance</h4>
-                  <p>Filing and assurance</p>
+                  <p>Professional assistance</p>
                 </div>
               </div>
               <div class="stat-row">
                 <div class="stat-icon blue" aria-hidden="true">⚡</div>
                 <div class="stat-info">
                   <h4>Timely Service</h4>
-                  <p>Filings on schedule</p>
+                  <p>Timely execution</p>
                 </div>
               </div>
               <div class="stat-row">
                 <div class="stat-icon gold" aria-hidden="true">🛡</div>
                 <div class="stat-info">
                   <h4>Confidential Handling</h4>
-                  <p>Client information kept confidential</p>
+                  <p>Client information handled confidentially</p>
                 </div>
               </div>
             </div>
+
+            <button type="button" class="hero-mini-card hero-card-gst glass-card layer-3d" data-modal="gst">
+              <span class="mini-badge">Professional</span>
+              <span class="mini-title">GST Filing</span>
+              <span class="mini-label">GSTR-1 &amp; 3B every month, with input credit reconciled before we file.</span>
+            </button>
+
+            <a href="#contact" class="hero-mini-card hero-card-consult glass-card layer-3d">
+              <span class="mini-badge">Professional</span>
+              <span class="mini-title">Consultation</span>
+              <span class="mini-label">No obligation — same-day reply on WhatsApp or a call back.</span>
+              <span class="mini-link">Contact Us
+                <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </span>
+            </a>
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!-- ======== MARQUEE ======== -->
+  <div class="marquee-section" aria-hidden="true">
+    <div class="marquee-track">
+      <div class="marquee-group">
+        <div class="marquee-item"><span class="dot"></span> Income Tax Advisory</div>
+        <div class="marquee-item"><span class="dot"></span> GST Services</div>
+        <div class="marquee-item"><span class="dot"></span> Auditing &amp; Assurance</div>
+        <div class="marquee-item"><span class="dot"></span> Company Registration</div>
+        <div class="marquee-item"><span class="dot"></span> Bookkeeping</div>
+        <div class="marquee-item"><span class="dot"></span> Financial Advisory</div>
+        <div class="marquee-item"><span class="dot"></span> TDS/TCS Returns</div>
+        <div class="marquee-item"><span class="dot"></span> Project Finance</div>
+      </div>
+      <div class="marquee-group">
+        <div class="marquee-item"><span class="dot"></span> Income Tax Advisory</div>
+        <div class="marquee-item"><span class="dot"></span> GST Services</div>
+        <div class="marquee-item"><span class="dot"></span> Auditing &amp; Assurance</div>
+        <div class="marquee-item"><span class="dot"></span> Company Registration</div>
+        <div class="marquee-item"><span class="dot"></span> Bookkeeping</div>
+        <div class="marquee-item"><span class="dot"></span> Financial Advisory</div>
+        <div class="marquee-item"><span class="dot"></span> TDS/TCS Returns</div>
+        <div class="marquee-item"><span class="dot"></span> Project Finance</div>
+      </div>
+    </div>
+  </div>
 
   <!-- ======== ABOUT ======== -->
   <section class="about section-padding" id="about">
@@ -193,7 +333,11 @@
         <div class="about-image-wrapper reveal-left scene-3d" id="about-scene">
           <div class="about-image layer-3d" data-depth="40">
             <img src="assets/img/about-advisory.svg" width="800" height="600" loading="lazy" decoding="async"
-                 alt="Illustration representing accounting and audit work at Puppala and Associates">
+                 alt="Dashboard showing revenue growth, audit checklist and 100% on-time GST filings at Puppala and Associates">
+          </div>
+          <div class="about-image-badge">
+            <div class="badge-number">4+</div>
+            <div class="badge-text">Years of Trust</div>
           </div>
         </div>
 
@@ -203,21 +347,19 @@
             About Us
           </span>
           <h2 class="section-title">
-            About <span>Our Firm</span>
+            About <span>Our Firm</span> 
           </h2>
           <p class="about-description">
-            Puppala and Associates is a Chartered Accountancy firm based in Amalapuram, Andhra Pradesh,
-            providing professional services to individuals, businesses and organisations.
+            Puppala and Associates is a Chartered Accountancy firm based in Amalapuram, Andhra Pradesh. Providing professional services to individuals, businesses and organisations from Amalapuram, Andhra Pradesh.
           </p>
           <p class="about-description">
-            Our team of Chartered Accountants provides services in taxation, auditing, accounting
-            and regulatory compliance.
+            Our team of Chartered Accountants is committed to providing professional services in taxation, auditing, accounting and regulatory compliance.
           </p>
 
           <div class="about-features">
             <div class="about-feature">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
-              Chartered Accountant Team
+              Expert CA Team
             </div>
             <div class="about-feature">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
@@ -237,8 +379,16 @@
             </div>
             <div class="about-feature">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
-              Confidentiality
+              Transparent Process
             </div>
+          </div>
+
+          <div class="about-actions">
+            <button type="button" class="btn btn-primary" id="about-cta" data-modal="about">
+              Learn More
+              <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+            <a href="#contact" class="btn btn-ghost">Talk to a CA</a>
           </div>
         </div>
       </div>
@@ -254,94 +404,378 @@
           Our Services
         </span>
         <h2 class="section-title">
-          Chartered Accountancy <span>Services</span>
+          Comprehensive <span>CA Services</span>
         </h2>
         <p class="section-subtitle centered">
-          The firm provides the following professional services.
+          One-stop destination for all your accounting, taxation and business advisory needs. Open any service to see exactly what is covered, what we need from you, and how long it takes.
         </p>
       </div>
 
       <div class="services-grid stagger-children">
-        <article class="service-card tilt-3d" id="service-income-tax">
+        <!-- Service 1 -->
+        <article class="service-card tilt-3d" id="service-income-tax" data-modal="income-tax">
           <span class="card-glare" aria-hidden="true"></span>
           <div class="card-inner">
             <div class="service-icon" aria-hidden="true">📋</div>
-            <h3>Income Tax</h3>
-            <p>Income tax return filing, assessments, appeals and related compliance for individuals and businesses.</p>
+            <h3>Income Tax Advisory</h3>
+            <p>Expert guidance on income tax planning, return filing, assessments, appeals, and tax-saving strategies for individuals and businesses.</p>
+            <button type="button" class="service-more" data-modal="income-tax">
+              Learn more
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
           </div>
         </article>
 
-        <article class="service-card tilt-3d" id="service-gst">
+        <!-- Service 2 -->
+        <article class="service-card tilt-3d" id="service-gst" data-modal="gst">
           <span class="card-glare" aria-hidden="true"></span>
           <div class="card-inner">
             <div class="service-icon" aria-hidden="true">📊</div>
-            <h3>GST</h3>
-            <p>GST registration, return filing, reconciliation, refunds and related compliance.</p>
+            <h3>GST Services</h3>
+            <p>Complete GST solutions including registration, return filing, compliance audits, refunds, and advisory services to keep your business compliant.</p>
+            <button type="button" class="service-more" data-modal="gst">
+              Learn more
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
           </div>
         </article>
 
-        <article class="service-card tilt-3d" id="service-audit">
+        <!-- Service 3 -->
+        <article class="service-card tilt-3d" id="service-audit" data-modal="audit">
           <span class="card-glare" aria-hidden="true"></span>
           <div class="card-inner">
             <div class="service-icon" aria-hidden="true">🔍</div>
             <h3>Auditing &amp; Assurance</h3>
-            <p>Statutory audits, internal audits, tax audits and special-purpose audits.</p>
+            <p>Statutory audits, internal audits, tax audits, and special-purpose audits conducted with meticulous accuracy and professionalism.</p>
+            <button type="button" class="service-more" data-modal="audit">
+              Learn more
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
           </div>
         </article>
 
-        <article class="service-card tilt-3d" id="service-registration">
+        <!-- Service 4 -->
+        <article class="service-card tilt-3d" id="service-registration" data-modal="registration">
           <span class="card-glare" aria-hidden="true"></span>
           <div class="card-inner">
             <div class="service-icon" aria-hidden="true">🏢</div>
             <h3>Company Registration</h3>
-            <p>Incorporation of Private Limited, LLP, Partnership firms and other entities, with ROC compliance.</p>
+            <p>Seamless incorporation of Private Limited, LLP, Partnership firms, and other business entities with full ROC compliance support.</p>
+            <button type="button" class="service-more" data-modal="registration">
+              Learn more
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
           </div>
         </article>
 
-        <article class="service-card tilt-3d" id="service-bookkeeping">
+        <!-- Service 5 -->
+        <article class="service-card tilt-3d" id="service-bookkeeping" data-modal="bookkeeping">
           <span class="card-glare" aria-hidden="true"></span>
           <div class="card-inner">
             <div class="service-icon" aria-hidden="true">📒</div>
             <h3>Accounting &amp; Bookkeeping</h3>
-            <p>Bookkeeping, preparation of financial statements, reconciliation and accounting support.</p>
+            <p>Accurate bookkeeping, financial statements preparation, reconciliation, and accounting outsourcing to help you focus on business growth.</p>
+            <button type="button" class="service-more" data-modal="bookkeeping">
+              Learn more
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
           </div>
         </article>
 
-        <article class="service-card tilt-3d" id="service-tds">
+        <!-- Service 6 -->
+        <article class="service-card tilt-3d" id="service-tds" data-modal="tds">
           <span class="card-glare" aria-hidden="true"></span>
           <div class="card-inner">
             <div class="service-icon" aria-hidden="true">💰</div>
-            <h3>TDS / TCS Returns</h3>
-            <p>Filing of TDS and TCS returns, computation of liabilities and handling of notices.</p>
+            <h3>TDS/TCS Returns</h3>
+            <p>Timely filing of TDS and TCS returns, computation of liabilities, and expert handling of notices and corrections.</p>
+            <button type="button" class="service-more" data-modal="tds">
+              Learn more
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
           </div>
         </article>
 
-        <article class="service-card tilt-3d" id="service-project-finance">
+        <!-- Service 7 -->
+        <article class="service-card tilt-3d" id="service-project-finance" data-modal="project-finance">
           <span class="card-glare" aria-hidden="true"></span>
           <div class="card-inner">
             <div class="service-icon" aria-hidden="true">📈</div>
             <h3>Project Finance</h3>
-            <p>Project reports, loan documentation and financial projections for bank and institutional finance.</p>
+            <p>Assistance with project reports, loan documentation, financial projections, and fund-raising from banks and financial institutions.</p>
+            <button type="button" class="service-more" data-modal="project-finance">
+              Learn more
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
           </div>
         </article>
 
-        <article class="service-card tilt-3d" id="service-compliance">
+        <!-- Service 8 -->
+        <article class="service-card tilt-3d" id="service-compliance" data-modal="compliance">
           <span class="card-glare" aria-hidden="true"></span>
           <div class="card-inner">
             <div class="service-icon" aria-hidden="true">⚖️</div>
             <h3>Regulatory Compliance</h3>
-            <p>ROC filings, FEMA compliance, company law matters and statutory requirements.</p>
+            <p>Complete assistance with ROC filings, FEMA compliance, company law matters, and all statutory regulatory requirements.</p>
+            <button type="button" class="service-more" data-modal="compliance">
+              Learn more
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
           </div>
         </article>
 
-        <article class="service-card tilt-3d" id="service-financial-advisory">
+        <!-- Service 9 -->
+        <article class="service-card tilt-3d" id="service-financial-advisory" data-modal="financial-advisory">
           <span class="card-glare" aria-hidden="true"></span>
           <div class="card-inner">
             <div class="service-icon" aria-hidden="true">🎯</div>
             <h3>Financial Advisory</h3>
-            <p>Financial planning, and business restructuring and advisory matters.</p>
+            <p>Strategic financial planning, investment advisory, wealth management guidance, and business restructuring consultation.</p>
+            <button type="button" class="service-more" data-modal="financial-advisory">
+              Learn more
+              <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
           </div>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== WHY CHOOSE US ======== -->
+  <section class="why-choose section-padding" id="why-choose">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-badge section-badge-dark">
+          <span class="badge-dot"></span>
+          Professional Approach
+        </span>
+        <h2 class="section-title text-white">
+          Our <span>Practice</span>
+        </h2>
+        <p class="section-subtitle centered subtitle-muted">
+          We combine deep expertise with a client-first approach to deliver financial services you can rely on.
+        </p>
+      </div>
+
+      <div class="why-grid stagger-children">
+        <div class="why-card tilt-3d" data-modal="why-experts">
+          <span class="card-glare" aria-hidden="true"></span>
+          <div class="card-inner">
+            <div class="why-card-icon" aria-hidden="true">🎓</div>
+            <h3>Qualified Experts</h3>
+            <p>Our team comprises experienced Chartered Accountants with deep knowledge across multiple domains of finance and taxation.</p>
+            <button type="button" class="why-more" data-modal="why-experts">
+              Know more
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="why-card tilt-3d" data-modal="why-client-first">
+          <span class="card-glare" aria-hidden="true"></span>
+          <div class="card-inner">
+            <div class="why-card-icon" aria-hidden="true">🤝</div>
+            <h3>Client-Centric Approach</h3>
+            <p>We believe every client is unique. Our solutions are customized to your specific needs, goals, and business circumstances.</p>
+            <button type="button" class="why-more" data-modal="why-client-first">
+              Know more
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="why-card tilt-3d" data-modal="why-timely">
+          <span class="card-glare" aria-hidden="true"></span>
+          <div class="card-inner">
+            <div class="why-card-icon" aria-hidden="true">⏰</div>
+            <h3>Timely Delivery</h3>
+            <p>We understand the importance of deadlines. All filings, audits, and reports are delivered on time, every time.</p>
+            <button type="button" class="why-more" data-modal="why-timely">
+              Know more
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="why-card tilt-3d" data-modal="why-confidential">
+          <span class="card-glare" aria-hidden="true"></span>
+          <div class="card-inner">
+            <div class="why-card-icon" aria-hidden="true">🔒</div>
+            <h3>Confidentiality</h3>
+            <p>Your financial information is treated with the highest level of security and confidentiality at every step.</p>
+            <button type="button" class="why-more" data-modal="why-confidential">
+              Know more
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="why-card tilt-3d" data-modal="why-proactive">
+          <span class="card-glare" aria-hidden="true"></span>
+          <div class="card-inner">
+            <div class="why-card-icon" aria-hidden="true">💡</div>
+            <h3>Proactive Advisory</h3>
+            <p>We don't just file returns — we proactively advise you on tax-saving strategies and compliance best practices.</p>
+            <button type="button" class="why-more" data-modal="why-proactive">
+              Know more
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="why-card tilt-3d" data-modal="why-support">
+          <span class="card-glare" aria-hidden="true"></span>
+          <div class="card-inner">
+            <div class="why-card-icon" aria-hidden="true">📞</div>
+            <h3>Accessible Support</h3>
+            <p>Have a query? We're just a phone call away. Prompt response and clear communication are our hallmarks.</p>
+            <button type="button" class="why-more" data-modal="why-support">
+              Know more
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="why-card tilt-3d" data-modal="why-fees">
+          <span class="card-glare" aria-hidden="true"></span>
+          <div class="card-inner">
+            <div class="why-card-icon" aria-hidden="true">🧾</div>
+            <h3>Transparent Fixed Fees</h3>
+            <p>Scope and fee agreed in writing before work begins. No hourly surprises, no bill you did not expect at the end.</p>
+            <button type="button" class="why-more" data-modal="why-fees">
+              Know more
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="why-card tilt-3d" data-modal="why-digital">
+          <span class="card-glare" aria-hidden="true"></span>
+          <div class="card-inner">
+            <div class="why-card-icon" aria-hidden="true">💻</div>
+            <h3>Digital &amp; Paperless</h3>
+            <p>Share documents from your phone, approve over WhatsApp, and get every filing acknowledgement stored and searchable.</p>
+            <button type="button" class="why-more" data-modal="why-digital">
+              Know more
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== STATS ======== -->
+  <section class="stats-section" id="stats">
+    <div class="container">
+      <div class="stats-grid reveal">
+        <div class="stat-item">
+          <div class="stat-number"><span class="counter" data-target="300">300</span><span class="accent">+</span></div>
+          <div class="stat-label">Professional Practice</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number"><span class="counter" data-target="4">4</span><span class="accent">+</span></div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number"><span class="counter" data-target="1000">1,000</span><span class="accent">+</span></div>
+          <div class="stat-label">Professional Services</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number"><span class="counter" data-target="100">100</span><span class="accent">%</span></div>
+          <div class="stat-label">Client Established</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <!-- ======== TESTIMONIALS ======== -->
+  <!--  <section class="testimonials section-padding" id="testimonials">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-badge">
+          <span class="badge-dot"></span>
+          Testimonials
+        </span>
+        <h2 class="section-title">
+          What Our <span>Clients Say</span>
+        </h2>
+        <p class="section-subtitle centered">
+          Our clients' trust is our greatest achievement. Here's what they have to share about working with us.
+        </p>
+      </div>
+
+      <div class="testimonial-slider">
+        <div class="testimonial-cards stagger-children">
+          <figure class="testimonial-card tilt-3d">
+            <span class="card-glare" aria-hidden="true"></span>
+            <div class="card-inner">
+              <div class="testimonial-stars" role="img" aria-label="Rated 5 out of 5">★★★★★</div>
+              <div class="testimonial-quote" aria-hidden="true">"</div>
+              <blockquote class="testimonial-text">
+                Puppala and Associates has been handling our company's taxation and audit since we started. Their attention to detail and proactive advisory have saved us significantly. Highly recommended!
+              </blockquote>
+              <figcaption class="testimonial-author">
+                <div class="testimonial-avatar" aria-hidden="true">RK</div>
+                <div class="testimonial-info">
+                  <h4>Ramesh Kumar</h4>
+                  <p>Business Owner, Amalapuram</p>
+                </div>
+              </figcaption>
+            </div>
+          </figure>
+
+          <figure class="testimonial-card tilt-3d">
+            <span class="card-glare" aria-hidden="true"></span>
+            <div class="card-inner">
+              <div class="testimonial-stars" role="img" aria-label="Rated 5 out of 5">★★★★★</div>
+              <div class="testimonial-quote" aria-hidden="true">"</div>
+              <blockquote class="testimonial-text">
+                Professional, reliable, and always available when needed. They made my GST registration and filing process completely hassle-free. I trust them with all my financial matters.
+              </blockquote>
+              <figcaption class="testimonial-author">
+                <div class="testimonial-avatar" aria-hidden="true">SL</div>
+                <div class="testimonial-info">
+                  <h4>Srinivasa Lakshmi</h4>
+                  <p>Shop Owner, Razole</p>
+                </div>
+              </figcaption>
+            </div>
+          </figure>
+
+          <figure class="testimonial-card tilt-3d">
+            <span class="card-glare" aria-hidden="true"></span>
+            <div class="card-inner">
+              <div class="testimonial-stars" role="img" aria-label="Rated 5 out of 5">★★★★★</div>
+              <div class="testimonial-quote" aria-hidden="true">"</div>
+              <blockquote class="testimonial-text">
+                Outstanding service! The team helped us with company registration and ongoing compliance with utmost efficiency. Their expertise in handling complex matters is commendable.
+              </blockquote>
+              <figcaption class="testimonial-author">
+                <div class="testimonial-avatar" aria-hidden="true">VP</div>
+                <div class="testimonial-info">
+                  <h4>Venkata Prasad</h4>
+                  <p>Director, Kakinada</p>
+                </div>
+              </figcaption>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- ======== CTA SECTION ======== -->
+  <section class="cta-section section-padding" id="cta">
+    <div class="container">
+      <div class="cta-content reveal">
+        <h2>Professional <span>Chartered Accountancy Services</span></h2>
+        <p>
+          Let our expert Chartered Accountants guide you through every financial challenge. Book a free consultation today and take the first step towards stress-free finances.
+        </p>
+        <div class="cta-buttons">
+          <a href="#contact" class="btn btn-primary" id="cta-consult-btn">
+            Contact Us
+            <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="tel:+917075644785" class="btn btn-white" id="cta-call-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Call Us Now
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -352,24 +786,25 @@
       <div class="text-center reveal">
         <span class="section-badge">
           <span class="badge-dot"></span>
-          Contact
+          Get in Touch
         </span>
         <h2 class="section-title">
-          Contact <span>Details</span>
+          Contact <span>Us</span>
         </h2>
         <p class="section-subtitle centered">
-          You may reach the firm using the details below.
+          Have a question or need assistance? Reach out to us and our team will get back to you promptly.
         </p>
       </div>
 
       <div class="contact-wrapper">
         <div class="contact-info-card reveal-left">
           <h3>Contact Information</h3>
+          <p>Fill up the form or reach us through the details below. We'd love to hear from you.</p>
 
           <div class="contact-item">
             <div class="contact-item-icon" aria-hidden="true">📍</div>
             <div>
-              <h4>Office</h4>
+              <h4>Visit Us</h4>
               <p>Main Road, Amalapuram,<br>East Godavari, Andhra Pradesh 533201</p>
             </div>
           </div>
@@ -377,7 +812,7 @@
           <div class="contact-item">
             <div class="contact-item-icon" aria-hidden="true">📞</div>
             <div>
-              <h4>Phone</h4>
+              <h4>Call Us</h4>
               <a href="tel:+917075644785">+91 70756 44785</a>
             </div>
           </div>
@@ -385,7 +820,7 @@
           <div class="contact-item">
             <div class="contact-item-icon" aria-hidden="true">✉️</div>
             <div>
-              <h4>Email</h4>
+              <h4>Email Us</h4>
               <a href="mailto:puppalaandassociates31@gmail.com">puppalaandassociates31@gmail.com</a>
             </div>
           </div>
@@ -397,6 +832,76 @@
               <p>Mon – Sat: 9:30 AM – 6:30 PM</p>
             </div>
           </div>
+
+          <div class="contact-social">
+            <a href="https://www.facebook.com/puppalaandassociates" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/puppala-and-associates" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 2a2 2 0 110 4 2 2 0 010-4z"/></svg>
+            </a>
+            <a href="https://wa.me/917075644785" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/puppalaandassociates" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.2" fill="currentColor" stroke="none"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form reveal-right" id="contact-form-wrapper">
+          <h3>Send Us a Message</h3>
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="contact-name">Full Name *</label>
+                <input type="text" id="contact-name" name="name" placeholder="Your full name" required autocomplete="name">
+              </div>
+              <div class="form-group">
+                <label for="contact-phone">Phone Number *</label>
+                <input type="tel" id="contact-phone" name="phone" placeholder="+91 XXXXX XXXXX" required autocomplete="tel" inputmode="tel">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email Address</label>
+              <input type="email" id="contact-email" name="email" placeholder="your@email.com" autocomplete="email">
+            </div>
+            <div class="form-group">
+              <label for="contact-service">Service Required</label>
+              <select id="contact-service" name="service">
+                <option value="">Select a service</option>
+                <option value="Income Tax Advisory">Income Tax Advisory</option>
+                <option value="GST Services">GST Services</option>
+                <option value="Auditing &amp; Assurance">Auditing &amp; Assurance</option>
+                <option value="Company Registration">Company Registration</option>
+                <option value="Accounting &amp; Bookkeeping">Accounting &amp; Bookkeeping</option>
+                <option value="TDS/TCS Returns">TDS/TCS Returns</option>
+                <option value="Project Finance">Project Finance</option>
+                <option value="Regulatory Compliance">Regulatory Compliance</option>
+                <option value="Financial Advisory">Financial Advisory</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Your Message *</label>
+              <textarea id="contact-message" name="message" placeholder="Tell us how we can help you..." required></textarea>
+            </div>
+
+            <!-- Spam honeypot: hidden from humans, tempting to bots -->
+            <div class="form-honeypot" aria-hidden="true">
+              <label for="contact-website">Website</label>
+              <input type="text" id="contact-website" name="website" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="form-submit">
+              <button type="submit" class="btn btn-primary" id="contact-submit-btn">
+                Send via WhatsApp
+                <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+              </button>
+              <p class="form-note">Your details open a pre-filled WhatsApp chat with our team — nothing is stored on this site.</p>
+            </div>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
         </div>
       </div>
     </div>
@@ -430,39 +935,78 @@
             </div>
           </a>
           <p>
-            Chartered Accountancy firm in Amalapuram, Andhra Pradesh, providing taxation,
-            auditing, accounting and regulatory compliance services.
+            Chartered Accountancy Firm in Amalapuram, delivering excellence in taxation, auditing, and financial advisory services with integrity and dedication.
           </p>
         </div>
 
         <div class="footer-col">
-          <h4>Links</h4>
+          <h4>Quick Links</h4>
           <ul class="footer-links">
             <li><a href="#hero">Home</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#why-choose">Professional Approach</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
           </ul>
         </div>
 
         <div class="footer-col">
-          <h4>Services</h4>
+          <h4>Our Services</h4>
           <ul class="footer-links">
-            <li>Income Tax</li>
-            <li>GST</li>
-            <li>Auditing &amp; Assurance</li>
-            <li>Company Registration</li>
-            <li>Accounting &amp; Bookkeeping</li>
-            <li>Regulatory Compliance</li>
+            <li><a href="#services" data-modal="income-tax">Income Tax Advisory</a></li>
+            <li><a href="#services" data-modal="gst">GST Services</a></li>
+            <li><a href="#services" data-modal="audit">Auditing &amp; Assurance</a></li>
+            <li><a href="#services" data-modal="registration">Company Registration</a></li>
+            <li><a href="#services" data-modal="bookkeeping">Bookkeeping</a></li>
+            <li><a href="#services" data-modal="project-finance">Project Finance</a></li>
           </ul>
+        </div>
+
+        <div class="footer-col footer-newsletter">
+          <h4>Stay Updated</h4>
+          <p>Get tax updates, compliance deadlines and financial tips. Subscribing opens a pre-filled email to our team.</p>
+          <form class="newsletter-form" id="newsletter-form">
+            <label class="sr-only" for="newsletter-email">Your email address</label>
+            <input type="email" placeholder="Your email address" required id="newsletter-email" autocomplete="email">
+            <button type="submit" id="newsletter-submit">Subscribe</button>
+          </form>
+          <p class="form-status" id="newsletter-status" role="status" aria-live="polite"></p>
         </div>
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; <span id="footer-year">2026</span> Puppala and Associates.</p>
+        <p>&copy; <span id="footer-year">2026</span> Puppala and Associates. All rights reserved.</p>
+        <p>Designed with ♥ for financial excellence</p>
       </div>
     </div>
   </footer>
+
+  <!-- ======== LEARN MORE MODAL ======== -->
+  <div class="modal-overlay" id="modal-overlay" hidden>
+    <div class="modal scene-3d" role="dialog" aria-modal="true" aria-labelledby="modal-title" id="modal">
+      <button type="button" class="modal-close" id="modal-close" aria-label="Close dialog">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="modal-scroll" id="modal-scroll">
+        <header class="modal-head">
+          <div class="modal-icon" id="modal-icon" aria-hidden="true">📋</div>
+          <div>
+            <p class="modal-eyebrow" id="modal-eyebrow">Service</p>
+            <h2 class="modal-title" id="modal-title">Title</h2>
+            <p class="modal-tagline" id="modal-tagline"></p>
+          </div>
+        </header>
+        <div class="modal-body" id="modal-body"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======== WHATSAPP FLOAT ======== -->
+  <a href="https://wa.me/917075644785?text=Hello%2C%20I%20need%20CA%20services" target="_blank" rel="noopener"
+     class="whatsapp-float" id="whatsapp-btn" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
 
   <!-- ======== BACK TO TOP ======== -->
   <button class="back-to-top" id="back-to-top" aria-label="Back to top">
